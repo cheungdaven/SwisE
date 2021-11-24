@@ -22,3 +22,12 @@ CUDA_VISIBLE_DEVICES=YourDeviceID python3 run.py --model=SwisE --max_epochs=100 
 --neg_sample_size 50 --init_size 0.001 --learning_rate 0.005 --bias learn --valid 1 --dataset=FB237 
 --k=4 -manifolds Hyperbolic Hyperbolic Hyperbolic Spherical Spherical
 
+'''
+@article{zhang2021switch,
+  title={Switch spaces: Learning product spaces with sparse gating},
+  author={Zhang, Shuai and Tay, Yi and Jiang, Wenqi and Juan, Da-cheng and Zhang, Ce},
+  journal={arXiv preprint arXiv:2102.08688},
+  year={2021}
+}
+'''
+
